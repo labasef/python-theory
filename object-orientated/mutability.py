@@ -6,6 +6,7 @@ old_id = id(a)
 
 # changing the value of a
 a.append(1)
+# the id of a is the same as before; id(a) == old_id
 print('old_id:', old_id, 'new_id:', id(a), ' -> same' if old_id == id(a) else ' -> different')
 
 # Below the object referenced by d is changed, therefore c is also changed
@@ -19,8 +20,9 @@ print('c is d:', c is d, f'{c=}, {d=}')
 a = 'hello'
 old_id = id(a)
 
-# changing the value of b
+# changing the value of a
 a += ' world'
+# the id of a is different than before; id(a) != old_id
 print('old_id:', old_id, 'new_id:', id(a), ' -> same' if old_id == id(a) else ' -> different')
 
 # Below d is reassigned to a new object whereas c is not
