@@ -4,6 +4,10 @@
 # The local namespace is the dictionary of the current function.
 # The built-in namespace is the dictionary of the built-in functions.
 
+
+# built-in namespace
+print(dir(__builtins__))
+
 a = 'global'
 
 # global namespace
@@ -61,9 +65,6 @@ def moo(b):
     print(globals().get('b', 'not found'))
     print('local "b" is global "b": ', locals().get('b') is globals().get('b'))
 
-b= ['global']
+b = ['global']
 moo(b)
 
-
-# built-in namespace
-print(dir(__builtins__))
