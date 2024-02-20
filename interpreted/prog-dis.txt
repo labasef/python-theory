@@ -1,0 +1,17 @@
+# generated with bash command: 'python -m dis prog.py > prog-dis.txt'
+
+  1           0 LOAD_CONST               0 (10)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (1)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                2 (print)
+             10 LOAD_CONST               2 ('Sum ')
+             12 LOAD_NAME                0 (a)
+             14 LOAD_NAME                1 (b)
+             16 BINARY_ADD
+             18 CALL_FUNCTION            2
+             20 POP_TOP
+             22 LOAD_CONST               3 (None)
+             24 RETURN_VALUE
