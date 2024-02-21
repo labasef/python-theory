@@ -9,7 +9,6 @@
 print(dir(__builtins__))
 
 a = 'global'
-
 # global namespace
 print(globals())
 
@@ -34,7 +33,6 @@ def nfunc():
 nfunc()
 
 
-
 def foo(a):
     # implicitly a variable 'a' is created in the local namespace of foo
     # such as a (local) = a (global)
@@ -51,9 +49,12 @@ def foo(a):
 
 foo(a)
 
+b = ['global']
+
 def moo(b):
-    # implicitly a variable 'a' is created in the local namespace of foo
-    # such as a (local) = a (global)
+
+    # implicitly a variable 'b' is created in the local namespace of foo
+    # such as b (local) = b (global)
     print(locals())
     # we can see that it is the same object referenced by 'a', both locally and globally
     print('local "b" is global "b": ', locals().get('b') is globals().get('b'))
@@ -65,6 +66,11 @@ def moo(b):
     print(globals().get('b', 'not found'))
     print('local "b" is global "b": ', locals().get('b') is globals().get('b'))
 
-b = ['global']
 moo(b)
+print(b)
+
+def bar(a='default'):
+    print(locals())
+
+bar()
 
