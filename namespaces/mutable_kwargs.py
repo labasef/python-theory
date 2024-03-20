@@ -2,7 +2,8 @@
 # the keyword arguments are defined there
 # Thus, using mutable objects as default arguments can lead to unexpected behavior
 
-def foo(a=[]):
+def foo(a=None):
+    a = a or [1]
     a.append(1)
     print(a)
 
