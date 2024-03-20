@@ -2,17 +2,19 @@ import sys
 import time
 
 # use of generators; elements are not stored in memory
-print(sys.getsizeof(range(999999)))
-g = (x*2 for x in range(999999))  # notice the parenthesis for generator
-print(sys.getsizeof(g))
+print("size of range generator=", sys.getsizeof(range(999999)))
+# notice the parenthesis for generator
+g = (x*2 for x in range(999999))
+print("size of generator=", sys.getsizeof(g))
 start = time.time()
 for i in g:
     pass
 print('iterating over generator took', time.time() - start)
 
 # use of list; all elements are stored in memory
-l = [x for x in range(999999)]
-print(sys.getsizeof(l))  # notice the square brackets for list
+# notice the square brackets for list
+l = [x*2 for x in range(999999)]
+print("size of list=", sys.getsizeof(l))
 start = time.time()
 for i in l:
     pass
