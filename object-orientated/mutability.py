@@ -30,3 +30,22 @@ c = d = 'hello'
 print('c is d:', c is d, f'{c=}, {d=}')
 d += ' world'
 print('c is d:', c is d, f'{c=}, {d=}')
+
+
+# Careful with nested objects
+
+# a dictionary is mutable
+a = 1  # immutable
+b = []  # mutable
+c = {'a': a, 'b': b}
+print('c:', c)
+
+# changing the value of b
+b.append(a)
+# the value of 'b' in the dictionary is changed
+print('c:', c)
+
+# changing the value of a
+a = 2
+# the value of 'a' in the dictionary is not changed
+print('c:', c)
