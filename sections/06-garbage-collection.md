@@ -91,3 +91,6 @@ with gc.disabled():
     pass
 ```
 
+---
+[← Previous: Python Interpreter](05-python-interpreter.md) | [Home](../README.md) | [Next: Object-Orientated →](07-object-orientated.md)
+---

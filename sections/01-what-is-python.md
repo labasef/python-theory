@@ -28,3 +28,6 @@ Python has become one of the most popular programming languages due to:
 - Desktop Applications
 - Game Development
 
+---
+[Home](../README.md) | [Next: Namespaces →](02-namespaces.md)
+---

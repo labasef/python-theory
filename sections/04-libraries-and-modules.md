@@ -76,3 +76,6 @@ Popular third-party libraries extend Python's capabilities:
 4. **Avoid circular imports** by planning module dependencies
 5. **Use virtual environments** to manage project dependencies
 
+---
+[← Previous: High-level Language](03-high-level-language.md) | [Home](../README.md) | [Next: Python Interpreter →](05-python-interpreter.md)
+---

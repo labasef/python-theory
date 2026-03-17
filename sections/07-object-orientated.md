@@ -133,3 +133,6 @@ class Person:
 - **Extensibility**: New functionality can be added through inheritance
 - **Flexibility**: Polymorphism allows for flexible, generic code
 
+---
+[← Previous: Garbage Collection](06-garbage-collection.md) | [Home](../README.md) | [Next: Imports →](08-imports.md)
+---

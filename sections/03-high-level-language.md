@@ -47,3 +47,6 @@ def process(data):
 - **Better maintainability**: Code is easier to understand and modify
 - **Cross-platform compatibility**: Run the same code on Windows, Mac, Linux
 
+---
+[← Previous: Namespaces](02-namespaces.md) | [Home](../README.md) | [Next: Libraries and Modules →](04-libraries-and-modules.md)
+---

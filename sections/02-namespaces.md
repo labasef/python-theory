@@ -64,3 +64,6 @@ def outer():
     print(x)  # Prints 10
 ```
 
+---
+[← Previous: What is Python?](01-what-is-python.md) | [Home](../README.md) | [Next: High-level Language →](03-high-level-language.md)
+---

@@ -72,3 +72,6 @@ Different implementations of the Python language:
 3. **Automatic memory management**: Garbage collection handles cleanup
 4. **Bytecode caching**: Compiled code is cached for performance
 
+---
+[← Previous: Libraries and Modules](04-libraries-and-modules.md) | [Home](../README.md) | [Next: Garbage Collection →](06-garbage-collection.md)
+---

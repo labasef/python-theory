@@ -165,3 +165,6 @@ spec = importlib.util.find_spec("module_name")
 is_installed = spec is not None
 ```
 
+---
+[← Previous: Object-Orientated](07-object-orientated.md) | [Home](../README.md)
+---
