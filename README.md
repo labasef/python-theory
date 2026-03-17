@@ -49,7 +49,3 @@ This folder contains code snippets demonstrating shallow copies, deep copies, an
 2. Explore the corresponding code examples in the `code/` directory
 3. Run the code examples to see concepts in action
 4. Experiment by modifying and extending the examples
-
-## Contributing
-
-Feel free to add more examples, corrections, or clarifications to improve this learning resource.
